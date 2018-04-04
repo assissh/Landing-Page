@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <div class="Image-entry">
+
+        <h2>{{ object.Image_My_Image }}</h2>
+        <p>Image Creator: {{ object.Image_Owned_By }}</p>
+
+
+    </div>
+
+    <!--    Image Edit Delete button -->
+
+    <p>
+         <a href="{% url 'Image_update' Image.pk %}">Edit</a> |
+
+            <a href="{% url 'Image_delete' Image.pk %}">Delete</a>
+    </p>
+
+    <!--    # facebook like button -->
+
+    <div
+        class="fb-like"
+        data-share="true"
+        data-width="450"
+        data-show-faces="true">
+    </div>
+
+    <p>Back to <a href="{% url 'Image_list' %}">All Image</a>.</p>
+
+
+{% endblock content %}

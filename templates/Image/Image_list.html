@@ -1,0 +1,65 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a8098a0a1f7fea1c7b39cdad80a72ddb848582b
+<!-- creating frame for page via base.html -->
+
+{% extends 'base.html' %}
+
+<!-- create title for Image_list.html -->
+
+{% block title %}Images{% endblock %}
+
+{% block content %}
+
+    <!-- create list of Images -->
+
+    {% for Image in object_list %}
+
+      <!-- create card deck for displaying Images -->
+        <div class="card">
+
+        <div class="card-header">
+
+            <span class="font-weight-bold">{{ Image.Image_My_Image }}</span>
+            <span class="text-muted">{{ Image.Image_My_Image }}</span>
+
+        </div>
+
+
+        <div class="card-body">
+
+            <a href="{% url 'Image_update' Image.pk %}">Edit</a> |
+
+            <a href="{% url 'Image_delete' Image.pk %}">Delete</a>
+
+        </div>
+
+        <div class="card-footer text-center text-muted">
+
+            <!-- create list of comments of Images -->
+            {% for comment in Image.comment_set.all %}
+
+                <p>
+
+                    <span class="font-weight-bold">{{ Comment.Image_Comment_Author }} &middot;</span>
+                    {{ comment }}
+
+                </p>
+
+            {% endfor %}
+
+        </div>
+
+
+    </div>
+
+      <br />
+
+    {% endfor %}
+
+<<<<<<< HEAD
+{% endblock content %}
+=======
+{% endblock content %}
+>>>>>>> 8a8098a0a1f7fea1c7b39cdad80a72ddb848582b

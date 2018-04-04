@@ -1,0 +1,58 @@
+
+<!-- creating frame for page via base.html -->
+
+{% extends 'base.html' %}
+
+<!-- create title for Video_list.html -->
+
+{% block title %}Videos{% endblock %}
+
+{% block content %}
+
+    <!-- create list of Videos -->
+
+    {% for Video in object_list %}
+
+      <!-- create card deck for displaying Videos -->
+        <div class="card">
+
+        <div class="card-header">
+
+            <span class="font-weight-bold">{{ Video.Video_My_Video }}</span>
+            <span class="text-muted">{{ Video.Video_Owned_By }}</span>
+
+        </div>
+
+
+        <div class="card-body">
+
+            <a href="{% url 'Video_update' Video.pk %}">Edit</a> |
+
+            <a href="{% url 'Video_delete' Video.pk %}">Delete</a>
+
+        </div>
+
+        <div class="card-footer text-center text-muted">
+
+            <!-- create list of comments of Videos -->
+            {% for comment in Video.comment_set.all %}
+
+                <p>
+
+                    <span class="font-weight-bold">{{ comment.Video_Comment_Author }} &middot;</span>
+                    {{ comment }}
+
+                </p>
+
+            {% endfor %}
+
+        </div>
+
+
+    </div>
+
+      <br />
+
+    {% endfor %}
+
+{% endblock content %}

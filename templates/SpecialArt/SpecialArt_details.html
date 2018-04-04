@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <div class="post-entry">
+
+        <h2>{{ object.SpecialArt_Charges_Available }}</h2>
+        <p>Comments : {{ object.SpecialArt_Comments }}</p>
+        <p>Daily Charges: {{ object.SpecialArt_Daily_Charges }}</p>
+        <p>Description{{ object.SpecialArt_Description }}</p>
+        <p>Portfolio  : {{ object.SpecialArt_Portfolio }}</p>
+        <p>Charges Available: {{ object.SpecialArt_Charges_Available }}</p>
+        <p>Profile Projects{{ object.SpecialArt_Profile_Projects }}</p>
+        <p>Ratings : {{ object.SpecialArt_Ratings }}</p>
+        <p>Special Art ID : {{ object.SpecialArt_Special_Art_ID }}</p>
+        <p>Video  : {{ object.SpecialArt_Video }}</p>
+
+    </div>
+
+    <!--    SpecialArt Edit Delete button -->
+
+    <p>
+        <a href="{% url 'SpecialArt_update' SpecialArt.pk %}">Edit</a> |
+
+        <a href="{% url 'SpecialArt_delete' SpecialArt.pk %}">Delete</a>
+    </p>
+
+    <!--    # facebook like button -->
+
+    <div
+        class="fb-like"
+        data-share="true"
+        data-width="450"
+        data-show-faces="true">
+    </div>
+
+    <p>Back to <a href="{% url 'SpecialArt_list' %}">All Messages</a>.</p>
+
+
+{% endblock content %}

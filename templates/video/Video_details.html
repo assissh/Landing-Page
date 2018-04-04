@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <div class="Video-entry">
+
+        <h2>{{ object.Video_My_Video }}</h2>
+        <p>Author: {{ object.Video_Owned_By }}</p>
+
+    </div>
+
+    <!--    Video Edit Delete button -->
+
+    <p>
+        <a href="{% url 'Video_update' Video.pk %}">Edit</a> |
+
+        <a href="{% url 'Video_delete' Video.pk %}">Delete</a>
+    </p>
+
+    <!--    # facebook like button -->
+
+    <div
+        class="fb-like"
+        data-share="true"
+        data-width="450"
+        data-show-faces="true">
+    </div>
+
+    <p>Back to <a href="{% url 'Video_list' %}">All Messages</a>.</p>
+
+
+{% endblock content %}
