@@ -1,51 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1cbe1365-bc21-451e-9166-33fe63303028" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Video/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Video/admin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Video/apps.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Video/migrations/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Video/models.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Video/tests.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Video/urls.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Video/views.py" />
-      <change beforePath="$PROJECT_DIR$/Location/models.py" afterPath="$PROJECT_DIR$/Location/models.py" />
-      <change beforePath="$PROJECT_DIR$/Location/views.py" afterPath="$PROJECT_DIR$/Location/views.py" />
-      <change beforePath="$PROJECT_DIR$/Location_Authorities/models.py" afterPath="$PROJECT_DIR$/Location_Authorities/models.py" />
-      <change beforePath="$PROJECT_DIR$/Location_Authorities/views.py" afterPath="$PROJECT_DIR$/Location_Authorities/views.py" />
-      <change beforePath="$PROJECT_DIR$/Prop/models.py" afterPath="$PROJECT_DIR$/Prop/models.py" />
-      <change beforePath="$PROJECT_DIR$/Prop/views.py" afterPath="$PROJECT_DIR$/Prop/views.py" />
-      <change beforePath="$PROJECT_DIR$/Quick_Requirements/models.py" afterPath="$PROJECT_DIR$/Quick_Requirements/models.py" />
-      <change beforePath="$PROJECT_DIR$/Quick_Requirements/views.py" afterPath="$PROJECT_DIR$/Quick_Requirements/views.py" />
-      <change beforePath="$PROJECT_DIR$/Search/models.py" afterPath="$PROJECT_DIR$/Search/models.py" />
-      <change beforePath="$PROJECT_DIR$/Search/views.py" afterPath="$PROJECT_DIR$/Search/views.py" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change beforePath="$PROJECT_DIR$/help_Qna/models.py" afterPath="$PROJECT_DIR$/help_Qna/models.py" />
-      <change beforePath="$PROJECT_DIR$/help_Qna/views.py" afterPath="$PROJECT_DIR$/help_Qna/views.py" />
-      <change beforePath="$PROJECT_DIR$/help_category/models.py" afterPath="$PROJECT_DIR$/help_category/models.py" />
-      <change beforePath="$PROJECT_DIR$/help_category/views.py" afterPath="$PROJECT_DIR$/help_category/views.py" />
-      <change beforePath="$PROJECT_DIR$/help_center/models.py" afterPath="$PROJECT_DIR$/help_center/models.py" />
-      <change beforePath="$PROJECT_DIR$/help_center/views.py" afterPath="$PROJECT_DIR$/help_center/views.py" />
-      <change beforePath="$PROJECT_DIR$/help_subcategory/models.py" afterPath="$PROJECT_DIR$/help_subcategory/models.py" />
-      <change beforePath="$PROJECT_DIR$/help_subcategory/views.py" afterPath="$PROJECT_DIR$/help_subcategory/views.py" />
-      <change beforePath="$PROJECT_DIR$/image/admin.py" afterPath="$PROJECT_DIR$/image/admin.py" />
-      <change beforePath="$PROJECT_DIR$/image/models.py" afterPath="$PROJECT_DIR$/image/models.py" />
-      <change beforePath="$PROJECT_DIR$/image/urls.py" afterPath="$PROJECT_DIR$/image/urls.py" />
-      <change beforePath="$PROJECT_DIR$/image/views.py" afterPath="$PROJECT_DIR$/image/views.py" />
-      <change beforePath="$PROJECT_DIR$/location_financials/models.py" afterPath="$PROJECT_DIR$/location_financials/models.py" />
-      <change beforePath="$PROJECT_DIR$/templates/Location/Location_detail.html" afterPath="$PROJECT_DIR$/templates/Location/Location_detail.html" />
-      <change beforePath="$PROJECT_DIR$/templates/Location_Authorities/Location_Authorities_detail.html" afterPath="$PROJECT_DIR$/templates/Location_Authorities/Location_Authorities_detail.html" />
-      <change beforePath="$PROJECT_DIR$/templates/Prop/Prop_detail.html" afterPath="$PROJECT_DIR$/templates/Prop/Prop_detail.html" />
-      <change beforePath="$PROJECT_DIR$/templates/Quick_Requirements/Quick_Requirements_detail.html" afterPath="$PROJECT_DIR$/templates/Quick_Requirements/Quick_Requirements_detail.html" />
-      <change beforePath="$PROJECT_DIR$/templates/helpQna/helpQna_detail.html" afterPath="$PROJECT_DIR$/templates/helpQna/helpQna_detail.html" />
-      <change beforePath="$PROJECT_DIR$/templates/helpcategorys/helpcategory_detail.html" afterPath="$PROJECT_DIR$/templates/helpcategorys/helpcategory_detail.html" />
-      <change beforePath="$PROJECT_DIR$/templates/helpcenter/helpcenter_detail.html" afterPath="$PROJECT_DIR$/templates/helpcenter/helpcenter_detail.html" />
-      <change beforePath="$PROJECT_DIR$/templates/helpsubcategory/helpsubcategory_detail.html" afterPath="$PROJECT_DIR$/templates/helpsubcategory/helpsubcategory_detail.html" />
-      <change beforePath="$PROJECT_DIR$/templates/search/search_detail.html" afterPath="$PROJECT_DIR$/templates/search/search_detail.html" />
-      <change beforePath="$PROJECT_DIR$/templates/search/search_new.html" afterPath="$PROJECT_DIR$/templates/search/search_new.html" />
-      <change beforePath="$PROJECT_DIR$/workforfilms/settings.py" afterPath="$PROJECT_DIR$/workforfilms/settings.py" />
-    </list>
+    <list default="true" id="1cbe1365-bc21-451e-9166-33fe63303028" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -227,7 +183,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="614" />
     <option name="y" value="105" />
     <option name="width" value="734" />
@@ -348,8 +304,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -488,9 +443,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -533,7 +486,7 @@
         <state relative-caret-position="148">
           <caret line="56" column="22" lean-forward="false" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
           <folding>
-            <element signature="e#994#1002#0#HTML" expanded="false" />
+            <element signature="e#1065#1073#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
